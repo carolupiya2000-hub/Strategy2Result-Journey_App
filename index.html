@@ -1132,25 +1132,4 @@ function buildPlaybook2() {
 
 buildCommTabs();
 </script>
-</body>
-  <script>
-document.addEventListener("DOMContentLoaded", function() {
-  // 🔥 Force ALL pages to show
-  document.querySelectorAll(".page").forEach(p => {
-    p.style.display = "block";
-  });
-
-  // 🔥 Activate first page
-  const firstPage = document.querySelector(".page");
-  if (firstPage) {
-    firstPage.classList.add("active");
-  }
-
-  // 🔥 Remove lock overlay if it appears
-  const lock = document.getElementById("lock-overlay");
-  if (lock) {
-    lock.style.display = "none";
-  }
-});
-</script>
 </html>
